@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import { addEvent } from '../actions/mixinsActions';
+import { addEvent } from '../../actions/mixinsActions';
 import DatePicker, { registerLocale } from 'react-datepicker';
 import en_gb from "date-fns/locale/en-GB";
 import { Views } from 'react-big-calendar';
@@ -8,10 +8,10 @@ import {
     ERROR_MESSAGE_EMPTY_TITLE,
     ERROR_MESSAGE_END_TIME_LESS_THEN_START_TIME,
     ERROR_MESSAGE_EVENTS_INTERSECTS,
-} from '../constants/mixinsContants';
+} from '../../constants/mixinsContants';
 import Moment from 'moment';
 import { extendMoment } from 'moment-range';
-import './AddEventModal.scss';
+import './style.scss';
 
 registerLocale('en-GB', en_gb);
 

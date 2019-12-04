@@ -1,8 +1,8 @@
 import React from 'react';
 import { Views } from 'react-big-calendar';
-import ToolbarTitle from '../ToolbarTitle/ToolbarTitle';
-import AddEvent from '../AddEvent/AddEvent';
-import './Toolbar.scss';
+import ToolbarTitle from '../ToolbarTitle';
+import AddEvent from '../AddEvent';
+import './style.scss';
 
 const VIEWS = [Views.MONTH, Views.WEEK, Views.DAY]; 
 

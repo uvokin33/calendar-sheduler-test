@@ -9,7 +9,7 @@ import { MONTHS_NAMES, DATE_FORMAT } from '../../constants/mixinsContants';
 import Moment from 'moment';
 import { extendMoment } from 'moment-range';
 // import 'moment/locale/en-gb';
-import './ToolbarTitle.scss';
+import './style.scss';
 
 registerLocale('en-GB', en_gb);
 

@@ -1,0 +1,29 @@
+@import 'react-datepicker/dist/react-datepicker';
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    max-height: 30px;
+    padding-bottom: 10px;
+
+    p {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    input {
+        margin-right: 10px;
+    }
+
+    &.right {
+        justify-content: flex-end;
+    }
+
+    .error {
+        color: #ff0000;
+    }
+
+    button {
+        padding-bottom: 20px !important;
+    }
+}

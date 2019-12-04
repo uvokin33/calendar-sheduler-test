@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+@import 'react-big-calendar/lib/sass/styles';
+
+.app {
+  font-family: 'Solway';
+}
+
+.rbc-date-cell {
+  text-align: left;
+} 
+
+.rbc-event {
+  max-width: 280px;
+}
